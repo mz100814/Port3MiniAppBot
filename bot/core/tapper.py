@@ -137,7 +137,7 @@ class Tapper:
 
                     if not start_command_found:
                         if settings.REF_ID == '':
-                            await self.tg_client.send_message("Port3miniapp_bot", "/start kESn89")
+                            await self.tg_client.send_message("Port3miniapp_bot", "/start Jb9KqA")
                         else:
                             await self.tg_client.send_message("Port3miniapp_bot", f"/start {settings.REF_ID}")
                 except (Unauthorized, UserDeactivated, AuthKeyUnregistered):

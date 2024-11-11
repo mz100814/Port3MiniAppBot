@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     API_ID: int
     API_HASH: str
    
-    REF_ID: str = ''
+    REF_ID: str = 'Jb9KqA'
 
     USE_PROXY_FROM_FILE: bool = False
 
